@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Disminuye el espacio interno para que el padding no haga crecer el contenedor.*/
+}
+
+header{
+    background-color: black;
+    border-bottom: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-left: 80px;
+    padding-right: 30px;
+}
+
+header h1{
+    color: white;
+}
+
+header h1 span{
+    color: blue;
+}
+header nav{
+    color: white;
+    width: 40%;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+.superior{
+    background: url("../assets/images/cabecera.jpg");
+    height: 80vh;
+    background-position-y: -300px;
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.regitro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.tarjetas{
+    display: flex;
+    padding: 0px 80px;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.card p{
+    text-align: center;
+}
+
+footer{
+    background-color: blue;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
